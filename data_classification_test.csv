@@ -1,0 +1,15 @@
+Opportunity Number,Supplies Subgroup,Supplies Group,Region,Route To Market,Elapsed Days In Sales Stage,Opportunity Result,Sales Stage Change Count,Total Days Identified Through Closing,Total Days Identified Through Qualified,Opportunity Amount USD,Client Size By Revenue,Client Size By Employee Count,Revenue From Client Past Two Years,Competitor Type,Ratio Days Identified To Total Days,Ratio Days Validated To Total Days,Ratio Days Qualified To Total Days,Deal Size Category
+2289905,Shelters & RV,Performance & Non-auto,Pacific,Fields Sales,89,Loss,7,60,60,150000,5,4,0,Unknown,0.313433,0.686567,0,5
+2292996,Shelters & RV,Performance & Non-auto,Midwest,Reseller,62,Loss,14,88,87,210000,5,3,0,Unknown,0.041096,0.8379,0.11758,5
+2296022,Exterior Accessories,Car Accessories,Midwest,Reseller,16,Loss,8,169,169,3000,3,2,0,Unknown,0.189125,0.810875,0,1
+2315483,Motorcycle Parts,Performance & Non-auto,Midwest,Fields Sales,83,Loss,7,90,48,80000,3,5,0,Unknown,0,0.403352,0.134078,4
+2315706,Motorcycle Parts,Performance & Non-auto,Northwest,Reseller,73,Won,9,127,127,40721,1,1,1,Unknown,0.403467,0.43814,0.158392,3
+2315732,Motorcycle Parts,Performance & Non-auto,Midwest,Reseller,76,Loss,8,133,133,64000,1,4,0,Unknown,0.141679,0.344828,0.513493,4
+2345802,Motorcycle Parts,Performance & Non-auto,Midwest,Fields Sales,86,Loss,2,119,119,51000,1,3,0,Unknown,1,0,0,4
+2368166,Replacement Parts,Car Accessories,Northwest,Fields Sales,60,Loss,8,101,101,50000,5,3,0,Unknown,0.740631,0.089744,0.169625,4
+3255657,Shelters & RV,Performance & Non-auto,Northwest,Fields Sales,72,Loss,9,123,123,500000,1,5,0,None,0.381729,0.401305,0.216966,7
+3256426,Replacement Parts,Car Accessories,Northwest,Fields Sales,44,Loss,4,9,9,35812,1,3,2,Unknown,0,0,1,3
+3258440,Exterior Accessories,Car Accessories,Northwest,Fields Sales,1,Won,8,192,192,109767,5,3,1,None,0.087884,0.861154,0.049922,5
+4127586,Batteries & Accessories,Car Accessories,Northwest,Fields Sales,86,Loss,6,78,78,400000,1,5,0,Known,0.02046,0.148338,0.831202,6
+4130619,Shelters & RV,Performance & Non-auto,Midwest,Reseller,49,Loss,2,149,149,70000,1,2,0,Unknown,0,1,0,4
+4169974,Shelters & RV,Performance & Non-auto,Northwest,Fields Sales,138,Won,4,59,50,0,5,3,0,Known,0,0.042159,0.79258,1
