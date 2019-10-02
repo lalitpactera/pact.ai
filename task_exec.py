@@ -16,7 +16,9 @@ def main(argv):
     filename            = argv[2]
     readfromfilevar     = argv[3]
     target              = argv[5].split(',')
-	
+
+    
+ 
     if task == '1':
         target              = argv[5]
         if target == '-':
@@ -37,7 +39,11 @@ def main(argv):
         f.close()
         #Im_read = cv2.imread(filename)
         #cv2.imwrite('display.png', Im_read)	
-		
+
+    print(filename)
+    filename = 'dataset/' + filename
+    print(filename)
+    
     if task == '2':       
         features = ['History']
         target = ['Parent']	

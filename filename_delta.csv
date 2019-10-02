@@ -1,2 +1,3 @@
-,Year,Week,Product_Level2,Units,Price
-0,2015,1,T14,7381,1.0
+,History,Parent
+0,"Greetings,<br>The following jobs have been running for more than 24 hours.<br>Please investigate and see if they are hung and need fixes.<br>Product<br>Branch<br>Job<br>URL<br>Git - Azure-Compute-Move<br>git_Azure_Compute_Move_dev_ilyao_vsts_official<br>Official Build<br>9932649<br>AD Build Lab<br>Patching<br>Patch BuildQs 49<br>9923007<br><br>Created by: Core Code Exc Builds (corecet@microsoft.com)
+<div>Compute move has been failing for 2 days for:</div><div>fatal error LNK1181: cannot open input file 'E:\bt\980732\repo\src\common\FexRegex\src\obj\amd64\fexregex.lib'</div><div>I am aborting it</div><div><br></div><div>Patching was due to job hung,.. restarted and passed</div>",1.0

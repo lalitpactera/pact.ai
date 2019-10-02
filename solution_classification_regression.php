@@ -34,11 +34,21 @@
 
                       <li>
                             <h3>Upload Data (.csv)</h3>
-                            <p>Enter only one file in .csv format</p>
+                            <p>Enter or select only one file in .csv format</p>
                       </li>
                       <li>
                           <input type="file" name="fileToUpload" id="fileToUpload">
                       </li>
+					  <li>
+                               <select name="listbox" size="4" id="listbox">
+                                   <option value="Price_Prediction_test_data.csv">Price_Prediction_test_data.csv</option>
+                                   <option value="Sales_prediction_test_data.csv">Sales_prediction_test_data.csv</option>
+                                   <option value="logistic_test_data.csv">logistic_test_data.csv</option>
+                                   <option value="Tickets_classification_test_data.csv">Tickets_classification_test_data.csv</option>
+								   <option value="Test_model.csv">Test_model.csv</option>
+                                   <option value="3"></option>
+                               </select>
+					  </li>
 					  <li>
                           <p>Enter data (this is alternative to loading the data as .csv)*</p>
                       </li>

@@ -9,7 +9,7 @@ $task_end = 0;
 if ($user_task == 5)
 	$task_end = $_POST['selector'];
 	
-if ($user_task > 1 and $user_task < 5)
+if ($user_task == 2 or $user_task == 3 or $user_task == 4 or $user_task == 8  or $user_task == 7)
 {
 	$data = $_POST['data'];
 	$features = 'a';
@@ -41,16 +41,33 @@ if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $newFilePath)) {
     #echo "The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded.";
 	;
 } else {
-    #echo "Sorry, there was an error uploading your file.";
-	$readfromfilevar = "1";
-	$myfile = fopen("features.txt", "w");
-	fwrite($myfile, $data);
-	fclose($myfile);
-	$newFilePath = 'dummy.csv';
+	#echo($_POST["listbox"]);
+	(isset($_POST["listbox"])) ? $company = $_POST["listbox"] : $company='-1';
+	#echo($company);
+	if ($company != '-1')
+	{
+		$newFilePath = $company;
+	}
+	else
+	{
+		#echo "Sorry, there was an error uploading your file.";
+		$readfromfilevar = "1";
+		$myfile = fopen("features.txt", "w");
+		fwrite($myfile, $data);
+		fclose($myfile);
+		$newFilePath = 'dummy.csv';
+	}
 }
 
-$str1 = 'python task_exec.py ' . $user_task . ' ' . $newFilePath . ' ' . $readfromfilevar . ' ' . $features . ' ' . $target . ' ' . $task_end;
+if ($user_task < 7)
+	$str1 = 'python task_exec.py ' . $user_task . ' ' . $newFilePath . ' ' . $readfromfilevar . ' ' . $features . ' ' . $target . ' ' . $task_end;
 #echo($str1);
+if ($user_task == 8)
+	$str1 = 'python python_test.py ' . $newFilePath . ' ' . $readfromfilevar;
+
+if ($user_task == 7)
+	$str1 = 'python translator1.py ' . $newFilePath . ' ' . $readfromfilevar;
+
 $str2 = shell_exec($str1);
 
 if ($user_task == 5)
