@@ -22,5 +22,5 @@ singledispatch
 regex==2019.4.14
 spacy==2.1.4
 nltk==3.4.1
-tensorflow==1.13.1
+tensorflow==1.15.0
 Keras==2.2.4
